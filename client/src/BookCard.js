@@ -8,7 +8,12 @@ const BookCard = props => {
     <div className='card-container'>
       <img src={props.image} alt='' />
       <div className='desc'>
-        <button className='save-button'>Save Book</button>
+        {/* <button className='save-button'>Save Book</button> */}
+
+        {/* <div className='save-button'>
+            <Link to='/register' className='btn btn-primary'>
+              Sign Up
+            </Link> */}
 
         {/* <Link to='/SavedBooks' className='btn btn-light my-1'>
           Game One
