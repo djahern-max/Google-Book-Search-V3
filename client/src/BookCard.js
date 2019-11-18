@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import App from './App';
 
 const BookCard = props => {
@@ -7,6 +9,11 @@ const BookCard = props => {
       <img src={props.image} alt='' />
       <div className='desc'>
         <button className='save-button'>Save Book</button>
+
+        {/* <Link to='/SavedBooks' className='btn btn-light my-1'>
+          Game One
+        </Link> */}
+
         <br />
         <h2>{props.title}</h2>
         <h2>AUTHOR: {props.author}</h2>
