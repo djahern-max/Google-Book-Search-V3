@@ -44,6 +44,17 @@ select:focus {
   top: -2px;
 }
 
+.save-button {
+  display: inline;
+  background: #1fa874;
+  color: #fff;
+  border: none;
+  padding: 2px 4px 4px 6px;
+  margin: 0 15px 0 0;
+  position: relative;
+  top: -2px;
+}
+
 input {
   width: 150px;
   padding: 5px;
@@ -102,4 +113,8 @@ select {
   width: 70px;
   position: relative;
   top: -2px;
+}
+
+.book-btn {
+  float: right;
 }

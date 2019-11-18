@@ -6,6 +6,8 @@ const BookCard = props => {
     <div className='card-container'>
       <img src={props.image} alt='' />
       <div className='desc'>
+        <button className='save-button'>Save Book</button>
+        <br />
         <h2>{props.title}</h2>
         <h2>AUTHOR: {props.author}</h2>
         <h2>
