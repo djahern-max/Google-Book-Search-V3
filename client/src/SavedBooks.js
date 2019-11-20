@@ -1,24 +1,10 @@
-// import React from 'react';
-// import BookCard from './BookCard';
+import React, { Component } from 'react';
+// import SearchArea from './SearchArea';
+// import BookList from './BookList';
+// import request from 'superagent';
 
-// const BookList = props => {
-//   return (
-//     <div className='list'>
-//       {props.books.map((book, i) => {
-//         return (
-//           <BookCard
-//             key={i}
-//             image={book.volumeInfo.imageLinks.thumbnail}
-//             title={book.volumeInfo.title}
-//             author={book.volumeInfo.authors}
-//             published={book.volumeInfo.publishedDate}
-//             link={book.volumeInfo.infoLink}
-//             description={book.volumeInfo.description}
-//           />
-//         );
-//       })}
-//     </div>
-//   );
-// };
 
-// export default BookList;
+
+
+
+export default SavedBooks;
